@@ -138,6 +138,10 @@ header ul a {
   height:40px;
 }
 
+header h1 a {
+    color: #000000;
+}
+
 strong {
   color:#222;
   font-weight:700;

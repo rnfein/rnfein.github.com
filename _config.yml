@@ -1,0 +1,3 @@
+-- auto: true
+future: false
+permalink: /:year/:month/:day/:title/

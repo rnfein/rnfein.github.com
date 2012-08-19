@@ -1,0 +1,9 @@
+{% include post_header.html %}
+
+	<h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}{% if post == null %}{{ page.title }}{% endif %}</a></h1>
+</header>
+<div>
+	{{ post.content }}{% if post == null %}{{ content }}{% endif %}
+
+	{% include post_footer.html %}
+</div>
